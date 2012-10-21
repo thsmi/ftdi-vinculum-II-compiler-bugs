@@ -1,6 +1,6 @@
 <Project>
 	<Version>1.2</Version>
-	<ProjectName>Enc4Vnc2</ProjectName>
+	<ProjectName>bug0001</ProjectName>
 	<ProjectLocation>D:\Projekte\FTDI Vinculum II Bugs\[1] Compiler Crash with Array and typecast</ProjectLocation>
 	<ProjectSolution>Enc4VNC2</ProjectSolution>
 	<ProjectVersion>1.0</ProjectVersion>
@@ -98,16 +98,6 @@
 		<ID>{00000000-0000-0000-0000-000000000005}</ID>
 		<ParentID>{00000000-0000-0000-0000-000000000002}</ParentID>
 	</VirtualFolderGroup>
-	<Files>
-		<filename>Enc4Vnc2.c</filename>
-		<fileDir></fileDir>
-		<fileType>1</fileType>
-		<isFileDirty>false</isFileDirty>
-		<VirtualFolder></VirtualFolder>
-	</Files>
-	<BuildList>
-		<filename>Enc4Vnc2.c</filename>
-	</BuildList>
 	<AppWizard>
 		<Active>true</Active>
 		<Type>general</Type>
@@ -191,8 +181,24 @@
 		<fileType>4</fileType>
 		<isFileDirty>false</isFileDirty>
 		<VirtualFolder>{00000000-0000-0000-0000-000000000004}</VirtualFolder>
-	</LibraryFiles>	<OpenFilesList>
-		<filename>Enc4Vnc2.c</filename>
-		<actvieTabIndex>0</actvieTabIndex>
-	</OpenFilesList>
+	</LibraryFiles>	<Files>
+		<filename>bug0001.c</filename>
+		<fileDir></fileDir>
+		<fileType>1</fileType>
+		<isFileDirty>false</isFileDirty>
+		<VirtualFolder></VirtualFolder>
+	</Files>
+	<BuildList>
+		<filename>bug0001.c</filename>
+	</BuildList>
+	<Files>
+		<filename>bug0001.h</filename>
+		<fileDir></fileDir>
+		<fileType>4</fileType>
+		<isFileDirty>false</isFileDirty>
+		<VirtualFolder></VirtualFolder>
+	</Files>
+	<BuildList>
+		<filename>bug0001.h</filename>
+	</BuildList>
 </Project>
