@@ -1,7 +1,5 @@
 # Typecast and Arrays causes a compiler crash
 
-## Description
-
 The following code snipplet crashes the compiler. 
 
 ```C
