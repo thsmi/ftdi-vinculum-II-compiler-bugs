@@ -30,14 +30,16 @@ main_loop:
 }
 
 /* Application Threads */
-#define uint8_t unsigned char
-#define uint16_t unsigned short
-#define uint32_t unsigned int
 
-uint8_t doSomething(uint8_t* bytes, uint16_t len)
+/*unsigned char doSomething(unsigned char* bytes, unsigned short len)
 {
-  bytes[len];
-  return (((uint8_t*)bytes)[len]);
+  return (((unsigned char*)bytes)[len]);
+}*/
+
+unsigned char doSomething(unsigned char* bytes, unsigned short len)
+{
+//  bytes[len];
+  return (((unsigned char*)bytes)[len]);
 }
 
 void firmware()

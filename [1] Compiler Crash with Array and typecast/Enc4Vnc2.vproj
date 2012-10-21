@@ -201,7 +201,9 @@
 		<fileType>4</fileType>
 		<isFileDirty>false</isFileDirty>
 		<VirtualFolder>{00000000-0000-0000-0000-000000000004}</VirtualFolder>
-	</LibraryFiles>	<OpenFilesList>
+	</LibraryFiles>	
+	
+	<OpenFilesList>
 		<filename>Enc4Vnc2.c</filename>
 		<actvieTabIndex>0</actvieTabIndex>
 	</OpenFilesList>
