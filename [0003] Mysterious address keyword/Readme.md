@@ -1,9 +1,7 @@
 # Mysterious address keyword
 
-## Description
-
 The following code snipplet does not compile. The error message is 
-*"(error) C1000 syntax error, unexpected TYPE_NAME, expecting ')'"*
+`"(error) C1000 syntax error, unexpected TYPE_NAME, expecting ')'"`
 
 ```C
 unsigned char doSomething(unsigned char* address)
@@ -24,9 +22,9 @@ Just rename `address` to something else like `addr` and the code will compile
 without any error messages.
 
 ```C
-unsigned char doSomething(unsigned char* address)
+unsigned char doSomething(unsigned char* addr)
 {
-  return address;
+  return addr;
 }
 ```
 
