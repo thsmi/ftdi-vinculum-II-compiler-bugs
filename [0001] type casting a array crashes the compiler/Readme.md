@@ -1,4 +1,4 @@
-# A typecast, an array crash and a compiler crash
+# A typecast, an array and a compiler crash
 
 The following code snipplet crashes the compiler. 
 
