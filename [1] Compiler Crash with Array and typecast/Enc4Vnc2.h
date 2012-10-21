@@ -10,6 +10,6 @@
 #ifndef _Enc4Vnc2_H_
 #define _Enc4Vnc2_H_
 
-#include "vos.h"
+
 
 #endif /* _Enc4Vnc2_H_ */

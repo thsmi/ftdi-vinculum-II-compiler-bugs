@@ -7,7 +7,7 @@
  * Thomas Schmid <schmid-thomas@gmx.net>
  */
 
-#include "Enc4Vnc2.h"
+#include "vos.h"
 
 vos_tcb_t *tcbFIRMWARE;
 
@@ -29,8 +29,6 @@ main_loop:
   goto main_loop;
 }
 
-/* Application Threads */
-
 /*unsigned char doSomething(unsigned char* bytes, unsigned short len)
 {
   return (((unsigned char*)bytes)[len]);
@@ -38,7 +36,8 @@ main_loop:
 
 unsigned char doSomething(unsigned char* bytes, unsigned short len)
 {
-//  bytes[len];
+  // Uncomment me to stop crashing the compiler
+  //  bytes[len];
   return (((unsigned char*)bytes)[len]);
 }
 
